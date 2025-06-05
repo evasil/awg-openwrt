@@ -12,16 +12,16 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "24.10.0"
+          - tag: "24.10.1"
             pkgarch: arm_cortex-a7_neon-vfpv4
             target: ipq40xx
             subtarget: generic
-            vermagic: "60aeaf7e722ca0f86e06f61157755da3"
-          - tag: "24.10.0"
+            vermagic: "86a3ff6dadb6f11ea15032190af7b3de"
+          - tag: "24.10.1"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7621
-            vermagic: "3abe85def815b59c6c75ac1f92135cb6"
+            vermagic: "2a6d68f3ded425efc0850296e7f62d53"
 
     steps:
       - uses: actions/checkout@v4
